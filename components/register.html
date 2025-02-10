@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation bar  -->
+        <div class="navigation-bar">
+            <div class="title">
+                <a href="../index.html">Home Food</a>
+            </div>
+            <div class="links">
+                <a href="../index.html">Home </a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="login-register">
+                <button class="login" ><a href="login.html"> Login</a></button>
+                <button class="register"><a href="register.html">Register</a> </button>
+            </div>
+        </div>
+
+        <div class="register-form">
+            <form action="#">
+                <div class="text">
+                    <label for="text">Participant Name</label><br>
+                    <input type="text" name="first" id="first" placeholder="First Name">
+                    <input type="text" name="last" id="last" placeholder="Last Name">
+                </div>
+
+                <label for="gender">Select your gender</label>
+                <select name="gender" id="gender">
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+
+                <label for="phone">Phone</label>
+                <input type="tel" name="tel" id="tel" placeholder="phone number">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+
+                <label for="data">Date of Birth</label>
+                <input type="date" name="date" id="date" placeholder="MM-DD-YY">
+
+                <button>Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
